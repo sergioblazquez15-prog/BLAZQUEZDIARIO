@@ -1,0 +1,11 @@
+version: "3"
+services:
+  blazquezdiario:
+    build: .
+    container_name: blazquezdiario
+    restart: unless-stopped
+    env_file: .env
+    ports:
+      - "3080:3080"
+    volumes:
+      - ./data:/app/data

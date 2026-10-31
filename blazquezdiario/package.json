@@ -1,0 +1,9 @@
+{
+  "name": "blazquezdiario",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Panel diario de Sergio: hábitos, dinero, objetivos y resúmenes",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "engines": { "node": ">=18" }
+}
